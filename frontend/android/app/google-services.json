@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "795405589157",
+    "project_id": "login-logout-cdcf2",
+    "storage_bucket": "login-logout-cdcf2.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:795405589157:android:5e72536fcf4b2d983dcb4c",
+        "android_client_info": {
+          "package_name": "com.example.e_commerce_app_design"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "795405589157-tvha64ub6til2o1n1ca381n3r0dgiltn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.e_commerce_app_design",
+            "certificate_hash": "40a9ebb818a8a189f58cfb183ac7bcbea5a974ac"
+          }
+        },
+        {
+          "client_id": "795405589157-e4stn4094as6fu188f4dghdjrs5tvt5b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA5-bieEgSQ3u7TmjPObtX_Bt8GDu4qaa0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "795405589157-e4stn4094as6fu188f4dghdjrs5tvt5b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

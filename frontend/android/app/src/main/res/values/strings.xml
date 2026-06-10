@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">E-Commerce App</string>
+    <!-- Thay đổi các giá trị bên dưới thành thông tin ứng dụng Facebook của bạn -->
+    <string name="facebook_app_id">1304839274523712</string>
+    <string name="fb_login_protocol_scheme">fb1304839274523712</string>
+    <string name="facebook_client_token">a53e55ea8b2a4d97df51403b80c28fbb</string>
+</resources>

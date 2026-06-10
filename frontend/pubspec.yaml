@@ -1,0 +1,50 @@
+name: e_commerce_app_design
+description: E-Commerce App Design based on Figma Community
+
+environment:
+  sdk: ^3.0.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  flutter_svg: ^2.2.0
+  google_fonts: ^6.3.0
+  provider: ^6.1.2
+
+  # HTTP Client
+  dio: ^5.7.0
+
+  # Lưu JWT token an toàn
+  flutter_secure_storage: ^9.2.2
+
+  # Google Sign-In
+  google_sign_in: ^6.2.1
+
+  # Facebook Sign-In
+  flutter_facebook_auth: ^6.0.0
+  image_picker: ^1.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/icons/
+    - assets/images/sport_dress.png
+
+  fonts:
+    - family: Metropolis
+      fonts:
+        - asset: assets/fonts/metropolis/Metropolis-Regular.otf
+        - asset: assets/fonts/metropolis/Metropolis-Medium.otf
+          weight: 500
+        - asset: assets/fonts/metropolis/Metropolis-SemiBold.otf
+          weight: 600
+        - asset: assets/fonts/metropolis/Metropolis-Bold.otf
+          weight: 700
