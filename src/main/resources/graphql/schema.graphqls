@@ -1,0 +1,53 @@
+type Query {
+  me: UserResponse
+}
+
+type Mutation {
+  register(input: RegisterRequestInput!): AuthResponse!
+  login(input: LoginRequestInput!): AuthResponse!
+  refreshToken(input: RefreshTokenRequestInput!): AuthResponse!
+  logout(input: RefreshTokenRequestInput!): Boolean!
+  loginWithGoogle(input: OAuth2RequestInput!): AuthResponse!
+  loginWithFacebook(input: OAuth2RequestInput!): AuthResponse!
+}
+
+type AuthResponse {
+  accessToken: String
+  refreshToken: String
+  tokenType: String
+  user: UserResponse
+}
+
+type UserResponse {
+  id: ID
+  email: String
+  fullName: String
+  avatarUrl: String
+  provider: AuthProvider
+  createdAt: String
+}
+
+enum AuthProvider {
+  LOCAL
+  GOOGLE
+  FACEBOOK
+}
+
+input RegisterRequestInput {
+  fullName: String!
+  email: String!
+  password: String!
+}
+
+input LoginRequestInput {
+  email: String!
+  password: String!
+}
+
+input RefreshTokenRequestInput {
+  refreshToken: String!
+}
+
+input OAuth2RequestInput {
+  token: String!
+}
